@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "Montserra";
+  src: url('../FONT/Montserrat-ExtraBold.ttf');
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Montserra", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family: 'Montserra', Helvetica, Arial, sans-serif;
+}
+
+nav {
+
+  position: absolute;
+  background-color: #656565;
+  top: 25px;
+  right: 0;
+  left: 0;
+  width: 1260px;
+  display: table;
+  margin: 0 auto;
+  transform: translateY(-50%);
+  z-index: 10;
+  opacity: 0.9;
+}
+
+nav a {
+  position: relative;
+  display: table-cell;
+  right: 0px;
+  text-align: center;
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100px;
+  padding: 20px 20px;
+  transition: 0.2s ease color;
+
+}
+
+.place {
+  margin-left: 850px;
+}
+
+.logo {
+  position: absolute;
+  top: 12px;
+  width: 150px;
+  right: 1100px;
+  left: 20px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.pic-ctn {
+  width: 100vw;
+  height: 200px;
+}
+
+@keyframes display {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  30% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+
+.pic-ctn {
+  position: relative;
+  width: 100vw;
+  height: 300px;
+  margin-top: 15vh;
+}
+
+.pic-ctn>img {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 100px);
+  opacity: 0;
+  animation: display 10s infinite;
+}
+
+img:nth-child(2) {
+  animation-delay: 2s;
+}
+
+img:nth-child(3) {
+  animation-delay: 4s;
+}
+
+img:nth-child(4) {
+  animation-delay: 6s;
+}
+
+img:nth-child(5) {
+  animation-delay: 8s;
+}
+
+.form {
+  height: 35px;
+}
+
+button {
+  color: #1D9AF2;
+  background-color: #292D3E;
+  border: 1px solid #1D9AF2;
+  border-radius: 4px;
+  padding: 0 15px;
+  cursor: pointer;
+  height: 32px;
+  font-size: 14px;
+  transition: all 0.2s ease-in-out;
+  opacity: 0.5;
+  border-color: white;
+}
+
+.tester {
+  margin: 0 auto;
+  width: 100%;
+}
+
+button {
+  border: none;
+}
+
+
+@media screen and (max-width: 640px) {}

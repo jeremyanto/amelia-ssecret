@@ -1,0 +1,4 @@
+- extraire tout le style en le triant par "type" par "classe" => exemple : "lien-menu"
+- passer le site en 100% de largeur (body / section)
+- separer et regrouper les éléments qui vont ensemble comme sur le dessin
+- lire systeme de colone bootstrapx
