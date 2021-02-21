@@ -9,6 +9,107 @@ body {
   font-family: "Montserra", Helvetica, Arial, sans-serif;
 }
 
+.B1 {
+  position:absolute; 
+  top:540px;
+  left:900px; 
+  width:80px; 
+  background-color:#7FB2B1; 
+  border-radius:5px; 
+  color:black;
+}
+
+.ouacheter {
+  height:600px;
+}
+
+.touacheter {
+  font-size:55px; 
+  color: whitesmoke; 
+  position: absolute;
+  margin-top:20px;
+  margin-left:50px;
+}
+
+.boutique{
+  font-size:36px; 
+  color: whitesmoke; 
+  position: absolute;
+  margin-top:100px;
+  margin-left:50px;
+}
+
+.parag {
+  font-size:15.5px; 
+  color: whitesmoke; 
+  position: absolute;
+  left:690px;
+  top:380px; 
+  font-family: 'Montserra', Helvetica, Arial, sans-serif;
+}
+
+.parag1 {
+  font-size:15.5px; 
+  color: whitesmoke; 
+  position: absolute;
+  left:130px;
+  top:1730px; 
+  font-family: 'Montserra', Helvetica, Arial, sans-serif;
+}
+
+.titre2 {
+  position: absolute;
+  font-size:42px; 
+  color: whitesmoke; 
+  position: absolute;
+  left:690px;
+  top:300px;
+  font-family: 'Montserra', Helvetica, Arial, sans-serif;
+}
+
+.titre1{
+  font-size:34px; 
+  color: whitesmoke; 
+  position: absolute;
+  left:690px;
+  top:270px; 
+  font-family: 'Montserra', Helvetica, Arial, sans-serif;
+}
+
+#plateau {
+  width:700px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.whitelogo {
+  width: 450px; 
+  position: absolute; 
+  top:120px; 
+  left:720px;
+}
+
+.icon {
+  position: absolute; 
+  width:100px; 
+  top:430px; 
+  right: 700px;
+}
+
+.back {
+  background-image: url('../img/manoir-nuit-2.jpg');
+  background-repeat: no-repeat;
+  background-position-y:10 ;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; 
+}
+
+.Menu-link {
+  text-decoration: none; 
+  color:white;
+}
+
 h1 {
   font-family: 'Montserra', Helvetica, Arial, sans-serif;
 }
@@ -63,6 +164,33 @@ body {
 .pic-ctn {
   width: 100vw;
   height: 200px;
+}
+
+.pic {
+  width:350px;
+}
+
+iframe {
+  
+  border:0; 
+  margin-top:200px; 
+  margin-left:400px; 
+  border-radius:5px;
+}
+
+.enligne {
+  font-size:36px; 
+  color: whitesmoke; 
+  position: absolute;
+  margin-top:100px;
+  margin-left:50px;
+}
+
+
+.btq {
+  position: absolute; 
+  margin-top:200px;
+  left:120px;
 }
 
 @keyframes display {
@@ -127,6 +255,80 @@ img:nth-child(5) {
   height: 35px;
 }
 
+#for1 {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 220px; 
+  border-radius:5px; 
+  width: 400px; 
+  text-align: center;
+}
+
+#for2 {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 650px; 
+  border-radius:5px; 
+  width: 400px; 
+  text-align: center;
+}
+
+#for3 {
+  position: absolute;
+  margin-top:450px;
+  margin-left: 220px; 
+  border-radius:5px; 
+  width: 400px; 
+  text-align: center;
+}
+
+#for4 {
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 650px; 
+  border-radius:5px; 
+  width: 400px; 
+  text-align: center;
+}
+
+#for5 {
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 220px; 
+  border-radius:5px; 
+  width: 830px; 
+  text-align: center;
+}
+
+#for6 {
+  position: absolute;
+  margin-top: 550px;
+  margin-left: 220px; 
+  border-radius:5px; 
+  width: 830px; 
+  text-align: center;
+}
+
+#for7 {
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 220px; 
+  border-radius:5px; 
+  width: 830px; 
+  height: 120px; 
+  text-align: center;
+}
+
+.BT3{
+  position:absolute; 
+  margin-top:750px;
+  left:600px; 
+  width:88px;
+  color: black; 
+  background-color:#7FB2B1; 
+  border-radius:5px
+}
+
 button {
   color: #1D9AF2;
   background-color: #292D3E;
@@ -141,9 +343,133 @@ button {
   border-color: white;
 }
 
+.foo {
+  height: 200px; 
+  background-color:#31211C;
+}
+
+.logofoo {
+  padding-top:20px; 
+  margin-left:20px;
+}
+
 .tester {
   margin: 0 auto;
   width: 100%;
+  background-image: url('../img/decors-bg.png');
+  background-size: 1259px; 
+  background-repeat: no-repeat;
+  height:950px; 
+  width: 1260px;
+}
+
+.for {
+  background-image: url('../img/decors-bg.png'); 
+  height:800px; 
+  width: 1260px; 
+  margin-top: 400px;
+}
+
+.help {
+  font-size:36px; 
+  color: whitesmoke; 
+  position: absolute;
+  margin-top:250px;
+  margin-left:50px;
+}
+
+.conta {
+  font-size:55px;
+  color: whitesmoke; 
+  position: absolute;
+  margin-top:150px;
+  margin-left:50px;
+}
+
+.VG {
+  font-size:55px; 
+  color: whitesmoke; 
+  position: absolute;
+  margin-top:130px;
+  margin-left:50px
+}
+
+.ARESCAPE {
+  font-size:30px; 
+  color: whitesmoke; 
+  position: absolute;
+  margin-top:250px;
+  margin-left:50px;
+}
+
+.marker {
+  position: absolute;
+  margin-top:565px;
+  margin-left:340px; 
+  width:140px;
+}
+
+.B2 {
+  background-color: #6D5C45;
+  color: black; 
+  position:absolute; 
+  top:1215px;
+  margin-left:105px; 
+  border-radius: 5px; 
+  width:120px; 
+  height:50px;
+}
+
+.comment {
+  font-size:30px; 
+  color: whitesmoke; 
+  position: absolute;
+  margin-top:300px;
+  margin-left:750px;
+}
+
+.gplay {
+  width: 100px; 
+  position:absolute; 
+  top: 900px; 
+  margin-left:130px;
+}
+
+.capt {
+  font-size:30px; 
+  color: whitesmoke; 
+  position: absolute;
+  margin-top:550px;
+  margin-left:50px;
+}
+
+.idco {
+  position: absolute;
+  margin-top:480px;
+  margin-left:55px; 
+  width:240px
+}
+
+.rec {
+  position: absolute;
+  margin-top:480px;
+  margin-left:50px; 
+  width:250px;
+}
+
+.co {
+  font-size:30px; 
+  color: whitesmoke;
+  position: absolute;
+  margin-top:400px;
+  margin-left:50px
+}
+
+.icoares {
+  position: absolute; 
+  width: 70px;
+  top: 900px; 
+  margin-left:50px;
 }
 
 button {

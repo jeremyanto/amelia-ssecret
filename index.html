@@ -13,131 +13,111 @@
 </head>
 
 
-<body style="background-image: url('img/background.png');no-repeat;background-size:cover; background-attachment: fixed;
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover; " data-spy="scroll" data-target="#navbar navbar-inverse" data-offset="0" id="qui">
+<body class="back" data-spy="scroll" data-target="#navbar navbar-inverse" data-offset="0" id="qui">
 
 
   <nav style="position: fixed;">
     <div class="place">
       <img src="img/logo_blanc.png" class="logo">
-      <a href="#jeu" class="menu-link" style="text-decoration: none; color:white;">Le Jeu</a>
-      <a href="#testez" style="text-decoration: none; color:white;">Testez</a>
-      <a href="#acheter" style="text-decoration: none; color:white;">Acheter</a>
-      <a href="#contact" style="text-decoration: none;color:white;">Contact</a>
+      <a href="#jeu" class="menu-link">Le Jeu</a>
+      <a href="#testez" class="menu-link">Testez</a>
+      <a href="#acheter" class="menu-link">Histoire</a>
+      <a href="#contact" class="menu-link">Contact</a>
       <div id="indicator"></div>
     </div>
   </nav>
+
   <div id="jeu">
-    <img class=" vov fade-in-top-left" src="img/plateaucartes.png" alt="jeu" style="width:700px; margin-top: 100px;">
-    <img src="img/iconeAREscape.png" style="position: absolute; width:100px; top:430px; right: 700px;" alt="">
-    <img src="img/logo_blanc1.png" alt="titre" style="width: 450px; position: absolute; top:120px; left:720px;">
-    <h1
-      style="font-size:34px; color: whitesmoke; position: absolute;left:690px;top:270px; font-family: 'Montserra', Helvetica, Arial, sans-serif;">
+    <img class=" vov fade-in-top-left" id="plateau" src="img/plateaucartes.png" alt="jeu">
+    <img src="img/iconeAREscape.png" class="icon" alt="">
+    <img src="img/logo_blanc1.png" class="whitelogo" alt="titre">
+    <h1 class="titre1">
       Un escape game chez vous</h1>
-    <h1
-      style="font-size:42px; color: whitesmoke; position: absolute;left:690px;top:300px;font-family: 'Montserra', Helvetica, Arial, sans-serif;">
+    <h1 class="titre2">
       En Réalité augmentée</h1>
-    <p
-      style="font-size:15.5px; color: whitesmoke; position: absolute;left:690px;top:380px; font-family: 'Montserra', Helvetica, Arial, sans-serif;">
+    <p class="parag">
       Transformez votre salon en vraie maison hantée grâce à la<br> réalité augmentée.
       Placez vos marqueurs à différents<br> endroits, puis téléchargez notre application
       pour commencer<br> la partie. Vous voulez vous échapper ? Il faudra trouver et<br> scanner
       chaque marqueur pour découvrir les mystérieux<br> indices. </p>
     <button
-      style="position:absolute; top:540px;left:900px; width:80px; background-color:#7FB2B1; border-radius:5px; color:black;"><b>Tester</b></button>
+      class="B1"><b>Tester</b></button>
   </div>
 
-  <div class="tester" style="background-image: url('img/decors-bg.png'); height:950px; width: 1260px;">
-    <h1 style="font-size:55px; color: whitesmoke; position: absolute;margin-top:130px;margin-left:50px" id="testez">
-      Testez la version d'essai gratuite</h1>
-    <h1 style="font-size:30px; color: whitesmoke; position: absolute;margin-top:250px;margin-left:50px">1/ Téléchargez
-      ARESCAPE</h1>
-    <img src="img/iconeAREscape.png" style="position: absolute; width: 70px;top: 850px; margin-left:50px;"
-      alt="logojeu">
-    <img src="img/appstore googleplay.png" style="width: 100px; position:absolute; top: 850px; margin-left:130px;"
-      alt="">
-    <h1 style="font-size:30px; color: whitesmoke; position: absolute;margin-top:400px;margin-left:50px">2/
-      Connectez-vous avec<br>les identifiants suivant</h1>
-    <img src="img/Rectangle 30.png" style="position: absolute;margin-top:480px;margin-left:50px; width:250px" alt="">
-    <img src="img/ID  Guest        MDP  AR1234.png"
-      style="position: absolute;margin-top:480px;margin-left:55px; width:240px" alt="">
-    <h1 style="font-size:30px; color: whitesmoke; position: absolute;margin-top:550px;margin-left:50px">3/
-      Téléchargez<br>le capteur</h1>
-    <img src="img/MARKER TUTO.png" style="position: absolute;margin-top:565px;margin-left:340px; width:140px" alt="">
-    <button
-      style="background-color: #6D5C45;color: black; position:absolute; top:1215px;margin-left:105px; border-radius: 5px; width:120px; height:50px;">Télécharger</button>
-    <h1 style="font-size:30px; color: whitesmoke; position: absolute;margin-top:300px;margin-left:750px">4/ Comment ca
-      marche ?</h1>
+  <div class="tester">
+
+    <h1 class="VG" id="testez">Testez la version d'essai gratuite</h1>
+    <h1 class="ARESCAPE">1/ Téléchargez ARESCAPE</h1>
+    <img src="img/iconeAREscape.png" class="icoares" alt="logojeu">
+    <img src="img/appstore googleplay.png" class="gplay"alt="">
+    <img src="img/ID  Guest        MDP  AR1234.png" class="idco" alt="">
+    <h1 class="capt">3/ Téléchargez<br>le capteur</h1>
+    <img class="marker" src="img/MARKER TUTO.png" alt="">
+    <a href="img/plateau-recto-245x370mm-FR.pdf" download="plateau-recto-245x370mm-FR.pdf"><button class="B2">Télécharger</button></a>
+    <h1 class="comment">4/ Comment ca marche ?</h1>
 
     <div class="pic-ctn" style="position: absolute;top: 880px;left:725px; width:350px;">
-      <img src="img/regle1.png" style="width:350px;" alt="" class="pic">
-      <img src="img/regle2.png" style="width:350px;" alt="" class="pic">
-      <img src="img/regle3.png" style="width:350px;" alt="" class="pic">
-      <img src="img/regle4.png" style="width:350px;" alt="" class="pic">
+      <img src="img/regle1.png" alt="" class="pic">
+      <img src="img/regle2.png" alt="" class="pic">
+      <img src="img/regle3.png" alt="" class="pic">
+      <img src="img/regle4.png" alt="" class="pic">
     </div>
   </div>
 
-  <div class="ouacheter" style="height:600px;">
-    <h1 style="font-size:55px; color: whitesmoke; position: absolute;margin-top:20px;margin-left:50px" id="acheter">Où
-      Acheter?</h1>
-    <h1 style="font-size:36px; color: whitesmoke; position: absolute;margin-top:100px;margin-left:50px">Trouver une
-      boutique</h1>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20983.467605984817!2d2.239895387550008!3d48.897605437706906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6650ab02fc7bd%3A0x40b82c3688b3e10!2s92400%20Courbevoie!5e0!3m2!1sfr!2sfr!4v1587771343839!5m2!1sfr!2sfr"
-      width="500" height="400" frameborder="0"
-      style="border:0; margin-top:200px; margin-left:400px; border-radius:5px; " allowfullscreen="" aria-hidden="false"
-      tabindex="0" class="flotte"></iframe>
-    <h1 style="font-size:36px; color: whitesmoke; position: absolute;margin-top:100px;margin-left:50px">Achetez en ligne
-      sur les plateformes suivantes :</h1>
-    <div style="position: absolute; margin-top:200px;left:120px;">
-      <img style="border-radius: 10px; margin-right: 73px;" src="img/Amazon-Logo.png" class="rounded float-left"
-        alt="..." style="width: 17%;padding-left: 50px;"></a>
-      <img style="border-radius: 10px; margin-right: 73px;" src="img/FNAC-logo-1.png" class="rounded mx-auto d-block"
-        alt="..." style="margin-right: 15px; width: 17%;padding-left: 40px;"></a>
+  <div class="ouacheter">
 
-      <img style="border-radius: 10px; margin-right: 73px;absolute;right: 500px;left: 438px;" href=""
-        src="img/toys_r_us_illicado5db70e9cbf2a4.png" class="rounded mx-auto d-block" alt="..."
-        style="margin-right: 15px; width: 17%;padding-left: 40px;"></a>
-      <img style="border-radius: 10px; margin-right: 73px; position: absolute;right: 500px;left: 438px;" href=""
-        src="img/joueclub-logo.png" class="rounded mx-auto d-block" alt="..."
-        style="margin-right: 15px; width: 17%;padding-left: 40px;"></a>
+    <h1 class="touacheter" id="acheter">Une Escape Party en Immersion 360</h1>
 
-      <img style="border-radius: 10px; margin-right: 73px;" href="" src="img/toys_r_us_illicado5db70e9cbf2a4.png"
-        class="rounded float-right" alt="..." style="width: 17%;padding-left: 40px; margin-left: 20px">
-      <img style="border-radius: 10px; margin-right: 73px;" href="" src="img/téléchargement.png"
-        class="rounded float-right" alt="..." style="width: 17%;padding-left: 40px; margin-left: 20px">
+    <video controls autoplay preload="auto" loop muted playsinline type="video/mp4" style="width: 620px; margin-top: 180px; margin-left:550px;">
+      <source src="video/video.mp4">
+    </video>
+
+    <p class="parag1">En 1814, Elizabeth Vonleaken <br>
+      s'installa dans un grand manoir<br> 
+      dans la forêt de Scrapson. La<br>
+      veuve en avait hérité de sa<br> 
+      famille.<br>
+      <br>
+      Sa fille de 6 ans, Amélia, s'est<br>
+      sentie tout de suite chez elle,<br>
+      dans cette grande demeure où<br> 
+      elle pouvais imaginer toutes les<br> 
+      histoires qu'elle voulait...</p>
+
+    <h1 class="enligne">Achetez en ligne sur les plateformes suivantes :</h1>
+
+    <div class="btq">
+
+      <img  style="border-radius: 10px; margin-right: 73px;" src="img/Amazon-Logo.png" class="rounded float-left" alt="..." style="width: 17%;padding-left: 50px;"></a>
+      <img  style="border-radius: 10px; margin-right: 73px;" src="img/FNAC-logo-1.png" class="rounded mx-auto d-block" alt="..." style="margin-right: 15px; width: 17%;padding-left: 40px;"></a>
+      <img  style="border-radius: 10px; margin-right: 73px;absolute;right: 500px;left: 438px;" href="" src="img/toys_r_us_illicado5db70e9cbf2a4.png" class="rounded mx-auto d-block" alt="..." style="margin-right: 15px; width: 17%;padding-left: 40px;"></a>
+      <img  style="border-radius: 10px; margin-right: 73px; position: absolute;right: 500px;left: 438px;" href="" src="img/joueclub-logo.png" class="rounded mx-auto d-block" alt="..." style="margin-right: 15px; width: 17%;padding-left: 40px;"></a>
+      <img  style="border-radius: 10px; margin-right: 73px;" href="" src="img/toys_r_us_illicado5db70e9cbf2a4.png" class="rounded float-right" alt="..." style="width: 17%;padding-left: 40px; margin-left: 20px">
+      <img  style="border-radius: 10px; margin-right: 73px;" href="" src="img/téléchargement.png"class="rounded float-right" alt="..." style="width: 17%;padding-left: 40px; margin-left: 20px">
+
     </div>
   </div>
 
-  <form class="tester"
-    style="background-image: url('img/decors-bg.png'); height:800px; width: 1260px; margin-top: 400px;" id="inscription"
-    method="POST" action="inscription.php">
-    <h1 style="font-size:55px; color: whitesmoke; position: absolute;margin-top:150px;margin-left:50px" id="contact">
-      Contactez-nous</h1>
-    <h1 style="font-size:36px; color: whitesmoke; position: absolute;margin-top:250px;margin-left:50px">Besoin d'aide ?
-      Nos experts seront ravis de vous aider.<br>
-      Inscrivez vous dans les mails de la boutique Amélia's Secret</h1>
-    <input class="form" name="nom" type="Nom" placeholder="Nom"
-      style="position: absolute;margin-top: 400px;margin-left: 220px; border-radius:5px; width: 400px; text-align: center;">
-    <input class="form" name="prenom" type="Prénom" placeholder="Prénom"
-      style="position: absolute;margin-top: 400px;margin-left: 650px; border-radius:5px; width: 400px; text-align: center;">
-    <input class="form" name="ddn" type="ddn" placeholder="Date de Naissance"
-      style="position: absolute;margin-top:450px;margin-left: 220px; border-radius:5px; width: 400px; text-align: center;">
-    <input class="form" name="tel" type="telephone" placeholder="Téléphone"
-      style="position: absolute;margin-top: 450px;margin-left: 650px; border-radius:5px; width: 400px; text-align: center;">
-    <input class="form" name="mail" type="mail" placeholder="E-mail"
-      style="position: absolute;margin-top: 500px;margin-left: 220px; border-radius:5px; width: 830px; text-align: center;">
-    <input class="form" name="objet" type="obj" placeholder="Objet du Message"
-      style="position: absolute;margin-top: 550px;margin-left: 220px; border-radius:5px; width: 830px; text-align: center;">
-    <input class="form" name="mess" type="message" placeholder="Message"
-      style="position: absolute;margin-top: 600px;margin-left: 220px; border-radius:5px; width: 830px; height: 120px; text-align: center;">
-    <button
-      style="position:absolute; margin-top:750px;left:600px; width:88px;color: black; background-color:#7FB2B1; border-radius:5px">Envoyer</button>
+  <form class="for" id="inscription" method="POST" action="inscription.php">
+
+    <h1 class="conta" id="contact">Contactez-nous</h1>
+    <h1 class="help">Besoin d'aide ? Nos experts seront ravis de vous aider.<br>Inscrivez vous dans les mails de la boutique Amélia's Secret</h1>
+
+    <input class="form" id="for1" name="nom" type="Nom" placeholder="Nom">
+    <input class="form" id="for2" name="prenom" type="Prénom" placeholder="Prénom">
+    <input class="form" id="for3" name="ddn" type="ddn" placeholder="Date de Naissance">
+    <input class="form" id="for4" name="tel" type="telephone" placeholder="Téléphone">
+    <input class="form" id="for5" name="mail" type="mail" placeholder="E-mail">
+    <input class="form" id="for6" name="objet" type="obj" placeholder="Objet du Message">
+    <input class="form" id="for7" name="mess" type="message" placeholder="Message">
+
+    <button class="BT3" style="position:absolute; margin-top:750px;left:600px; width:88px;color: black; background-color:#7FB2B1; border-radius:5px">Envoyer</button>
   </form>
-  <footer style="height: 200px; background-color:#31211C;">
-    <img style="padding-top:20px; margin-left:20px;" src="img/logo_blanc.png" alt="">
+
+  <footer class="foo">
+
+    <img class="logofoo" src="img/logo_blanc.png" alt="">
+
   </footer>
 
 </body>
